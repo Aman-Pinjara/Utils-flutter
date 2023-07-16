@@ -1,0 +1,33 @@
+name: my_utils
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  sqflite: ^2.2.8+4
+  flutter_staggered_grid_view: ^0.6.1
+  intl: ^0.18.0
+  path: ^1.8.0
+  path_provider: ^2.0.9
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+    # - ./assets/
